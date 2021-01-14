@@ -23,17 +23,17 @@ require(MASS)
 detach(package:MASS)
 
 #Assigning values
-x11<- 20
-x11=20
-x11 #To call the vale of x
+x1<- 20
+x1=20
+x1 #To call the vale of x1
 
 #Combining numbers/ characters in a vector and assigning those values to a variable
-y11<- c(12,21,103,4)
-y11 #To call the value of y
-z11<- c("a","b","c")
-z11 #To call the value of z
-y11[3] #To call the 3rd value of the vector y
-z11[2] #To call the 2nd value of the vector z
+y1<- c(12,21,103,4)
+y1 #To call the value of y1
+z1<- c("a","b","c")
+z1 #To call the value of z1
+y1[3] #To call the 3rd value of the vector y1
+z1[2] #To call the 2nd value of the vector z1
 
 #To get integer division (remainder is discarded)
 5%/%2
@@ -226,7 +226,7 @@ sx1[index[2]] #returns 12
 Sys.Date() #returns today's date
 Sys.time() #returns today's both date and time
 
-# Go to help and check format for dates
+#Go to help and check format for dates
 seq(as.Date("1992/9/23"), as.Date("2020/9/23"), "years") # to, from, by
 seq(as.Date("1992/9/23"), by="years", length.out=5)
 
