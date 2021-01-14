@@ -9,6 +9,9 @@ library(help=matrixcalc)
 #To get all information about a function
 example(cat)
 
+#To remove everything from the memory
+rm(list=ls())
+
 #To quit R
 q()
 
